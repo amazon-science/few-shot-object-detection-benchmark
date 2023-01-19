@@ -1,6 +1,10 @@
 # Rethinking Few-Shot Object Detection on a Multi-Domain Benchmark
+This is the PyTorch implementation of Our ECCV paper.  It proposes a benchmark for mnulti-domain few-shot object detection.
 
-This is the PyTorch implementation of the MoFSOD paper. It is a benchmark for mnulti-domain few-shot object detection.
+
+![Datasets](figs/datasets_0.png)
+
+
 
 If you use the code/model/results of this repository please cite:
 
@@ -46,15 +50,19 @@ You still need to follow the [readme](/datasets/README.md) to download and setup
 
 ## Few-shot Sampling
 
-To create the sampling we used in the paper, we prepare a script with fixed random seed. After setting up the `datasets` folder, just run 
+To create the sampling we used in the paper, we prepare a script with fixed random seeds. After setting up the `datasets` folder, just run 
 
     python generate_oi_annotations.py
 
-to create the few-shot sampled datasets.
-
-We also provide the [exact sampling](/prosessed_anntoations/few_shot_sampling.tar.gz) we used in the paper.
+to create the few-shot sampled datasets. We also provide the [exact sampling](/prosessed_anntoations/few_shot_sampling.tar.gz) we used in the paper.
 
 
 ## Running on each baseline
 
 Due to the testing needed, we will release this part in a few weeks, stay tune!
+In the mean time, if you want to test the datasets, we add an OpenImages dataset [reader](/common/openimages_dataset.py) to use in Detectron2.
+You can register the datasets with 
+
+    from common.openimages_dataset import openimages
+    dataset = openimages(data_dir='./datasets/', dataset_name=deepfruits, post_fix_key=str(fold))
+
