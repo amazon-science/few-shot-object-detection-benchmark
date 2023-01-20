@@ -1,5 +1,5 @@
 # Rethinking Few-Shot Object Detection on a Multi-Domain Benchmark
-This is the PyTorch implementation of Our ECCV paper.  It proposes a benchmark for mnulti-domain few-shot object detection.
+This is the PyTorch implementation of Our ECCV paper.  It proposes a benchmark for multi-domain few-shot object detection.
 
 
 ![Datasets](figs/datasets_0.png)
