@@ -142,7 +142,7 @@ After the preparation, run the conversion script. This should generate `test.csv
 
 ### 7. KITTI
 
-KITTI dataset can be downloaded from the github page. Note that we use this version:
+KITTI dataset can be downloaded from the link below. Note that we use this version:
 
     http://www.svcl.ucsd.edu/projects/universal-detection/
 
@@ -156,9 +156,10 @@ After the preparation, run the conversion script. This should generate `test.csv
 
 ### 8. DeepFruits
 
-DeepFruits dataset can be downloaded from the github page. Note that we use this version:
+DeepFruits dataset can be downloaded from the author's personal website. Note that the website is currently down. 
+Temporarily the dataset could be downloaded here:
 
-    http://enddl22.net/wordpress/datasets/deepcrops-datasets-and-annotation-tool
+    https://drive.google.com/file/d/10o-_UAlEgGqeWM4gKgyFMwanAC2dV2vq
 
 After downloading the dataset and extracting the annotations to the `deepfruits` folder, there should be 3 sub-folders 
 containing the images: `datasets`, annotations: `annotations`. There should a `train.json` and a `test.json` in `annotations` folder. 
@@ -173,7 +174,7 @@ After the preparation, run the conversion script. This should generate `test.csv
 
 ### 9. CrowdHuman
 
-CrowdHuman dataset can be downloaded from the github page. Note that we use this version:
+CrowdHuman dataset can be downloaded from the here:
 
     https://www.crowdhuman.org/
 
@@ -187,7 +188,7 @@ After the preparation, run the conversion script. This should generate `test.csv
 
 ### 9. SIXray
 
-SIXray dataset can be downloaded from the github page. Note that we use this version:
+SIXray dataset can be downloaded from the github page:
 
     https://github.com/MeioJane/SIXray
 
