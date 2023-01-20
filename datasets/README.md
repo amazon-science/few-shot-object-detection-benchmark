@@ -40,9 +40,9 @@ However, you will still need to setup the images folder as instructed.
 
 ### 1. iWildCam
 
-iWildCam's images can be downloaded from the github page. 
+iWildCam's images can be downloaded from the github page. Note that we use 2020, but it seems images from 2020 to 2022 are the same.
 
-    https://github.com/visipedia/iwildcam_comp/tree/master/2020
+    https://github.com/visipedia/iwildcam_comp/
     https://lila.science/datasets/wcscameratraps
 
 Extract the downloaded images to `JPEGImages`. Each image should follow the format `JPEGImages/animals/xxxx/xxxx.jpg`.
